@@ -14,8 +14,8 @@ Standards-Version: 3.9.4
 
 Package: tb-default-browser
 Architecture: all
-Depends: ${misc:Depends}
-Recommends: tb-updater, tb-starter, open-link-confirmation
+Depends: tb-starter, ${misc:Depends}
+Recommends: tb-updater, open-link-confirmation
 Description: Configures system to use /usr/bin/torbrowser as default browser
  Sets /usr/bin/x-www-browser to /usr/bin/torbrowser.
  .
@@ -31,3 +31,6 @@ Description: Configures system to use /usr/bin/torbrowser as default browser
  See also:
  The Default Browser on Linux Debacle
  http://blog.codef00.com/2011/02/18/the-default-browser-on-linux-debacle/
+ .
+ This package is produced independently of, and carries no guarantee from,
+ The Tor Project.

@@ -10,7 +10,7 @@ fi
 
 set -e
 
-update-alternatives --install /usr/bin/x-www-browser x-www-browser /usr/bin/torbrowser 90
-update-alternatives --install /usr/bin/gnome-www-browser gnome-www-browser /usr/bin/torbrowser 90
+update-alternatives --install /usr/bin/x-www-browser x-www-browser /usr/bin/torbrowser 101
+update-alternatives --install /usr/bin/gnome-www-browser gnome-www-browser /usr/bin/torbrowser 101
 
 #DEBHELPER#

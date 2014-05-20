@@ -1,0 +1,33 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: tb-default-browser
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 8), faketime, git
+Homepage: https://github.com/Whonix/tb-default-browser
+Vcs-Browser: https://github.com/Whonix/tb-default-browser
+Vcs-Git: https://github.com/Whonix/tb-default-browser.git
+Standards-Version: 3.9.4
+
+Package: tb-default-browser
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: tb-updater, tb-starter, open-link-confirmation
+Description: Configures system to use /usr/bin/torbrowser as default browser
+ Sets /usr/bin/x-www-browser to /usr/bin/torbrowser.
+ .
+ Sets /usr/bin/gnome-www-browser to /usr/bin/torbrowser.
+ .
+ Uses /etc/profile.d/ and /etc/X11/Xsession.d/ hooks to set BROWSER environment
+ variable to x-www-browser.
+ .
+ Sets KDE's default browser to x-www-browser. This only takes effect for newly
+ created user accounts. Not for existing user accounts. This is most useful to
+ help Linux distribution maintainers setting divergent defaults.
+ .
+ See also:
+ The Default Browser on Linux Debacle
+ http://blog.codef00.com/2011/02/18/the-default-browser-on-linux-debacle/

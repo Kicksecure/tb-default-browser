@@ -1,3 +1,9 @@
+tb-default-browser (3:0.4-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 17 Sep 2014 18:19:35 +0000
+
 tb-default-browser (3:0.3-1) unstable; urgency=low
 
   * New upstream version.

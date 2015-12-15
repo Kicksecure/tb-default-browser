@@ -4,8 +4,10 @@ Sets /usr/bin/x-www-browser to /usr/bin/torbrowser.
 
 Sets /usr/bin/gnome-www-browser to /usr/bin/torbrowser.
 
-Uses /etc/profile.d/ and /etc/X11/Xsession.d/ hooks to set BROWSER environment
-variable to x-www-browser.
+Sets BROWSER environment variable to /usr/bin/x-www-browser by using
+/etc/profile.d/ and /etc/X11/Xsession.d/ hooks.
+
+Registers of MIME type handlers to 'torbrowser'.
 
 Sets KDE's default browser to x-www-browser. This only takes effect for newly
 created user accounts. Not for existing user accounts. This is most useful to

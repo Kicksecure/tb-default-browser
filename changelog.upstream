@@ -1,3 +1,21 @@
+commit 57f03e12635c40e44bfa0fbf5a504de930068c94
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Nov 21 17:43:01 2016 +0000
+
+    readme
+
+commit 95ca990481139294d2cf7735ca120f3f680ae130
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jul 8 13:04:22 2016 +0000
+
+    fix, use torbrowser rather than @Browser@ as mime title
+
+commit 9450b87c866590f4f1f7393d511c443df7772177
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 7 22:54:47 2016 +0000
+
+    bumped changelog version
+
 commit 47aef18090dd548741e8f9b8edbcc1b183564ccc
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Dec 15 21:05:39 2015 +0000

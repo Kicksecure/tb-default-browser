@@ -1,3 +1,21 @@
+commit 49d489b65d9f4239e325d39a6f3f242b105f4a9e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jan 15 13:24:03 2017 +0000
+
+    remove debian/tb-default-browser.menu to fix lintian warning
+
+commit a5e6f71bcfecf4b9534dfbd03316d35d381d3f0d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jan 15 08:35:41 2017 +0100
+
+    packaging, bumped Standards-Version from 3.9.6 to 3.9.8 for jessie support
+
+commit 3372154ab5e6ee43f6c72571763754ff0d22766d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Dec 10 02:32:33 2016 +0000
+
+    bumped changelog version
+
 commit 57f03e12635c40e44bfa0fbf5a504de930068c94
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Nov 21 17:43:01 2016 +0000

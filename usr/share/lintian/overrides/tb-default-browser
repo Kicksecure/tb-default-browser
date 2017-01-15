@@ -1,5 +1,2 @@
 # The torbrowser script is shipped by the tb-starter package, which this package depends on.
 tb-default-browser: desktop-command-not-in-package usr/share/applications/x-www-browser.desktop torbrowser
-
-# The torbrowser script is shipped by the tb-starter package, which this package depends on.
-tb-default-browser: menu-command-not-in-package usr/share/menu/tb-default-browser:3 torbrowser

@@ -4,8 +4,8 @@
 ## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
 ## See the file COPYING for copying conditions.
 
-if [ -z "$KDEDIRS" ]; then
-   export KDEDIRS=/usr/share/torbrowser-default-browser/
+if [ -z "$XDG_CONFIG_DIRS" ]; then
+   export XDG_CONFIG_DIRS=/usr/share/torbrowser-default-browser/
 else
-   export KDEDIRS=/usr/share/torbrowser-default-browser/:$KDEDIRS
+   export XDG_CONFIG_DIRS=/usr/share/torbrowser-default-browser/:$XDG_CONFIG_DIRS
 fi

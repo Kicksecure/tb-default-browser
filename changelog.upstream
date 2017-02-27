@@ -1,3 +1,17 @@
+commit 7891790abe084afafa5c25ba2f2a80b70eccc937
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Feb 21 19:55:21 2017 +0000
+
+    Whonix 14 KDE plasma 5 fixes
+    
+    https://phabricator.whonix.org/T633
+
+commit 103e06b34fec8f553d74ad30c9a36f3546f975e8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 17 14:09:59 2017 +0000
+
+    bumped changelog version
+
 commit d992ffdb6a23043922b15501f6857085e126f235
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Feb 15 20:46:24 2017 +0000

@@ -1,3 +1,9 @@
+tb-default-browser (3:2.0-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Mon, 27 Aug 2018 16:51:42 +0000
+
 tb-default-browser (3:1.9-1) unstable; urgency=medium
 
   * New upstream version (local package).

@@ -9,7 +9,7 @@ fi
 
 set -e
 
-update-alternatives --install /usr/bin/x-www-browser x-www-browser /usr/bin/torbrowser 111
-update-alternatives --install /usr/bin/gnome-www-browser gnome-www-browser /usr/bin/torbrowser 111
+update-alternatives --install /usr/bin/x-www-browser x-www-browser /usr/bin/whichbrowser 112
+update-alternatives --install /usr/bin/gnome-www-browser gnome-www-browser /usr/bin/whichbrowser 112
 
 #DEBHELPER#

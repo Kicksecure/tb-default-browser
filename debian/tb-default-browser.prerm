@@ -9,7 +9,11 @@ fi
 
 set -e
 
+## Legacy.
 update-alternatives --remove x-www-browser /usr/bin/torbrowser
 update-alternatives --remove gnome-www-browser /usr/bin/torbrowser
+
+update-alternatives --remove x-www-browser /usr/bin/whichbrowser
+update-alternatives --remove gnome-www-browser /usr/bin/whichbrowser
 
 #DEBHELPER#

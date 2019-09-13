@@ -1,3 +1,25 @@
+commit 357d4cf38ca324b96870defad53ef50d7a9f1ce7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Sep 13 08:57:05 2019 -0400
+
+    fix, @tb-default-browser@ cannot work
+
+commit 05e3a4dc5f40ce69b98cb31b41ab2f18a04a03e7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Sep 13 08:56:18 2019 -0400
+
+    remove no longer required file usr/share/applications/x-www-browser.desktop
+    
+    was required for KDE
+    
+    now removed for simplicity
+
+commit 912d9f1533a3b09323628fb99f32bd21f3f00e31
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 1 12:05:21 2019 +0000
+
+    bumped changelog version
+
 commit 499840760691a19cc0b2bee3da5462366d35b582
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Aug 1 11:13:44 2019 +0000

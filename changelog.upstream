@@ -1,3 +1,29 @@
+commit 4a21a6dd421ccd77bf3c9fcffb9fe5969ec329e0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Sep 13 14:07:00 2019 +0000
+
+    add support for starting SecBrowser as default browser
+
+commit b44f0ab20372ae07f189f48393ff5b9178429f3b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Sep 13 13:50:39 2019 +0000
+
+    no longer use full path as other packages in do not do that either
+    
+    see files in folder /usr/lib/mime/packages
+
+commit b8ed04542bfb345326045e5b4be3da692b0d6592
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Sep 13 13:40:48 2019 +0000
+
+    remove no longer required lintian overwrite
+
+commit 1810eae788db75dc476567f51a4197a536842415
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Sep 13 13:37:21 2019 +0000
+
+    bumped changelog version
+
 commit 357d4cf38ca324b96870defad53ef50d7a9f1ce7
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Sep 13 08:57:05 2019 -0400

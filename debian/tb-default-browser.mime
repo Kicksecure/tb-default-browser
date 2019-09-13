@@ -1,5 +1,5 @@
-text/html; /usr/bin/@tb-default-browser@ %s; description=HTML Text; test=test -n "$DISPLAY";  nametemplate=%s.html; priority=6
-text/xml; /usr/bin/@tb-default-browser@ %s; description=XML Text; test=test -n "$DISPLAY";  nametemplate=%s.xml; priority=6
-image/png;  /usr/bin/@tb-default-browser@ %s; description=PNG Image; test=test -n "$DISPLAY";  nametemplate=%s.png; priority=3
-image/jpeg;  /usr/bin/@tb-default-browser@ %s; description=JPEG Image; test=test -n "$DISPLAY";  nametemplate=%s.jpeg; priority=3
-image/gif;  /usr/bin/@tb-default-browser@ %s; description=GIF Image; test=test -n "$DISPLAY";  nametemplate=%s.gif; priority=3
+text/html; /usr/bin/torbrowser %s; description=HTML Text; test=test -n "$DISPLAY";  nametemplate=%s.html; priority=6
+text/xml; /usr/bin/torbrowser %s; description=XML Text; test=test -n "$DISPLAY";  nametemplate=%s.xml; priority=6
+image/png;  /usr/bin/torbrowser %s; description=PNG Image; test=test -n "$DISPLAY";  nametemplate=%s.png; priority=3
+image/jpeg;  /usr/bin/torbrowser %s; description=JPEG Image; test=test -n "$DISPLAY";  nametemplate=%s.jpeg; priority=3
+image/gif;  /usr/bin/torbrowser %s; description=GIF Image; test=test -n "$DISPLAY";  nametemplate=%s.gif; priority=3

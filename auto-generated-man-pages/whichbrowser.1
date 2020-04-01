@@ -1,0 +1,36 @@
+.\" generated with Ronn-NG/v0.8.0
+.\" http://github.com/apjanke/ronn-ng/tree/0.8.0
+.TH "WHICHBROWSER" "1" "April 2020" "tb-default-browser" "tb-default-browser Manual"
+.SH "NAME"
+\fBwhichbrowser\fR \- Start Tor Browser or SecBrowser
+.P
+.SH "SYNOPSIS"
+\fBwhichbrowser\fR option(s)
+.SH "DESCRIPTION"
+You can use \fBwhichbrowser\fR to start a browser from the command line\.
+.P
+Parameters are passed to the browser starter wrapper\.
+.P
+The purpose of this helper script is to start either Tor Browser or SecBrowser\. It is being started by the alternatives mechanism by the system when looking for the default browser\.
+.P
+If user created file \fB/etc/secbrowser\-qubes\fR or file \fB/usr/local/etc/secbrowser\-qubes\fR it will default browser will be SecBrowser\.
+.P
+SecBrowser will be started by default in Kicksecure, unless\|\.\|\.\|\.
+.P
+If user created file \fB/etc/torbrowser\-default\-browser\fR it will start Tor Browser\.
+.P
+If none of above is true, fallback is to start Tor Browser\.
+.SH "EXIT CODES"
+Same exit code as browser starter\.
+.SH "EXAMPLES"
+\fBwhichbrowser \-\-new\-tab https://www\.whonix\.org\fR
+.P
+\fBwhichbrowser \-\-new\-window https://www\.whonix\.org\fR
+.P
+\fBwhichbrowser \-\-start \-\-lang="ar"\fR
+.SH "WWW"
+https://www\.whonix\.org/wiki/SecBrowser
+.P
+https://www\.whonix\.org/wiki/Tor_Browser
+.SH "AUTHOR"
+This man page has been written by Patrick Schleizer (adrelanos@riseup\.net)\.

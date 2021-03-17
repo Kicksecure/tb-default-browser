@@ -2,7 +2,7 @@ whichbrowser(1) -- Start Tor Browser or SecBrowser
 =============================================
 
 <span class="comment">
-# Copyright (C) 2019 - 2020 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
+# Copyright (C) 2019 - 2021 ENCRYPTED SUPPORT LP <adrelanos@whonix.org>
 # See the file COPYING for copying conditions.
 </span>
 
@@ -44,4 +44,4 @@ https://www.whonix.org/wiki/SecBrowser
 https://www.whonix.org/wiki/Tor_Browser
 
 ## AUTHOR
-This man page has been written by Patrick Schleizer (adrelanos@riseup.net).
+This man page has been written by Patrick Schleizer (adrelanos@whonix.org).

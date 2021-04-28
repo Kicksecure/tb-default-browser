@@ -3,15 +3,6 @@
 ## Copyright (C) 2019 - 2021 ENCRYPTED SUPPORT LP <adrelanos@whonix.org>
 ## See the file COPYING for copying conditions.
 
-if [ -f /etc/secbrowser-qubes ] || [ -f /usr/local/etc/secbrowser-qubes ]; then
-   browser=secbrowser
-fi
-
-## Use SecBrowser as default browser in Kicksecure.
-if [ -f /usr/share/kicksecure/marker ]; then
-   browser=secbrowser
-fi
-
 ## Allow users of Kicksecure to use Tor Browser as their default browser when
 ## they create file /etc/torbrowser-default-browser.
 if [ -f /etc/torbrowser-default-browser ]; then

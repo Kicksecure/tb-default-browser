@@ -1,4 +1,4 @@
-whichbrowser(1) -- Start Tor Browser or SecBrowser
+whichbrowser(1) -- Start Tor Browser or Another
 =============================================
 
 <span class="comment">
@@ -14,14 +14,10 @@ You can use `whichbrowser` to start a browser from the command line.
 
 Parameters are passed to the browser starter wrapper.
 
-The purpose of this helper script is to start either Tor Browser or SecBrowser.
+The purpose of this helper script is to start either Tor Browser or another.
+(Not implemented.)
 It is being started by the alternatives mechanism by the system when looking
 for the default browser.
-
-If user created file `/etc/secbrowser-qubes` or file
-`/usr/local/etc/secbrowser-qubes` it will default browser will be SecBrowser.
-
-SecBrowser will be started by default in Kicksecure, unless...
 
 If user created file `/etc/torbrowser-default-browser` it will start Tor
 Browser.
@@ -39,8 +35,6 @@ Same exit code as browser starter.
 `whichbrowser --start --lang="ar"`
 
 ## WWW
-https://www.whonix.org/wiki/SecBrowser
-
 https://www.whonix.org/wiki/Tor_Browser
 
 ## AUTHOR

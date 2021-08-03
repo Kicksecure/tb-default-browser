@@ -1,10 +1,10 @@
 whichbrowser(1) -- Start Tor Browser or Another
 =============================================
 
-<span class="comment">
+<!--
 # Copyright (C) 2019 - 2021 ENCRYPTED SUPPORT LP <adrelanos@whonix.org>
 # See the file COPYING for copying conditions.
-</span>
+-->
 
 ## SYNOPSIS
 `whichbrowser` option(s)

@@ -1,3 +1,9 @@
+tb-default-browser (3:3.7-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@whonix.org>  Thu, 05 Aug 2021 21:07:19 +0000
+
 tb-default-browser (3:3.6-1) unstable; urgency=medium
 
   * New upstream version (local package).

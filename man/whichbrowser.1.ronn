@@ -2,7 +2,7 @@ whichbrowser(1) -- Start Tor Browser or Another
 =============================================
 
 <!--
-# Copyright (C) 2019 - 2022 ENCRYPTED SUPPORT LP <adrelanos@whonix.org>
+# Copyright (C) 2019 - 2023 ENCRYPTED SUPPORT LP <adrelanos@whonix.org>
 # See the file COPYING for copying conditions.
 -->
 

@@ -6,9 +6,9 @@ Section: misc
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@whonix.org>
 Build-Depends: debhelper (>= 13), debhelper-compat (= 13)
-Homepage: https://github.com/Whonix/tb-default-browser
-Vcs-Browser: https://github.com/Whonix/tb-default-browser
-Vcs-Git: https://github.com/Whonix/tb-default-browser.git
+Homepage: https://github.com/Kicksecure/tb-default-browser
+Vcs-Browser: https://github.com/Kicksecure/tb-default-browser
+Vcs-Git: https://github.com/Kicksecure/tb-default-browser.git
 Standards-Version: 4.6.2
 Rules-Requires-Root: no
 

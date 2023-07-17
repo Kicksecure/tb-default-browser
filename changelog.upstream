@@ -1,3 +1,21 @@
+commit 4e44071e3ac99745fe51696afcff3f4ced323889
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jul 17 11:19:42 2023 -0400
+
+    Kicksecure
+
+commit be267fc5f1abf9ab1081b62aff775b7a0b5da798
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jul 17 11:11:19 2023 -0400
+
+    Kicksecure
+
+commit 794f1f9ecdfb2d37d22ba00be65a6c9746ea7640
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jun 21 09:38:14 2023 +0000
+
+    bumped changelog version
+
 commit 58ccd2e1031ca32c5297836a372e8e56df63a296
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Jun 21 09:11:31 2023 +0000

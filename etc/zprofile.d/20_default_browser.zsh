@@ -1,0 +1,1 @@
+../profile.d/20_default_browser.sh

@@ -7,3 +7,8 @@
 ## The Default Browser on Linux Debacle
 ## http://blog.codef00.com/2011/02/18/the-default-browser-on-linux-debacle/
 export BROWSER="/usr/bin/x-www-browser"
+
+if [ -z "$XDG_CONFIG_DIRS" ]; then
+   XDG_CONFIG_DIRS=/etc/xdg
+fi
+export XDG_CONFIG_DIRS=/usr/share/torbrowser-default-browser/:$XDG_CONFIG_DIRS

@@ -1,0 +1,2 @@
+rm_conffile /etc/X11/Xsession.d/50tb_default_browser
+rm_conffile /etc/X11/Xsession.d/50torbrowser_default_browser

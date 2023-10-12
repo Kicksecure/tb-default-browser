@@ -11,4 +11,6 @@ export BROWSER="/usr/bin/x-www-browser"
 if [ -z "$XDG_CONFIG_DIRS" ]; then
    XDG_CONFIG_DIRS=/etc/xdg
 fi
-export XDG_CONFIG_DIRS=/usr/share/torbrowser-default-browser/:$XDG_CONFIG_DIRS
+if ! echo "$XDG_CONFIG_DIRS" | grep --quiet /usr/share/torbrowser-default-browser/ ; then
+   export XDG_CONFIG_DIRS=/usr/share/torbrowser-default-browser/:$XDG_CONFIG_DIRS
+fi
